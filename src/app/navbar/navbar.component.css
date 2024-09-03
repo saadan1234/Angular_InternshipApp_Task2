@@ -1,0 +1,19 @@
+/* src/app/navbar/navbar.component.css */
+.navbar {
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    background-color: #333;
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+  }
+  
+  .navbar a.active {
+    background-color: #555;
+  }
+  
